@@ -1,8 +1,8 @@
 package com.fathi;
 
 
-import com.fathi.congig.SpringConfig;
-import com.fathi.dto.Apple;
+import com.fathi.config.SpringConfig;
+import com.fathi.model.Apple;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

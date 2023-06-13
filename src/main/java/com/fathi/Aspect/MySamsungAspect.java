@@ -5,15 +5,14 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 @Aspect
 @EnableAspectJAutoProxy
-public class MyAspect {
+public class MySamsungAspect {
 
-    @Pointcut("execution(* com.fathi.model.Sumsung.*(..))")
+    @Pointcut("execution(* com.fathi.model.Samsung.*(..))")
     private void logCallTimePointCut() {
     }
 

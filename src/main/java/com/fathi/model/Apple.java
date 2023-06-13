@@ -1,4 +1,4 @@
-package com.fathi.dto;
+package com.fathi.model;
 
 import org.springframework.stereotype.Component;
 
